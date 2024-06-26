@@ -225,3 +225,30 @@ button{
   font-weight: bold;
 }
 
+/* FAQ */
+.FAQ{
+  padding: var(--padding);
+}
+.FAQ-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 200px;
+  margin: 30px 10px;
+}
+.FAQ h2{
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+  padding: 20px;
+}
+.grid-part div{
+  padding: 10px;
+  line-height: 1.8;
+}
+.faq-header{
+  font-size: 18px;
+}
+.faq-paragraph{
+  font-size: 14px;
+  margin-bottom: 50px;
+}
