@@ -189,4 +189,39 @@ button{
   display: flex;
 }
 
+/* Membership */
+.Membership{
+  background-color: black;
+  color: var(--white);
+  height: 502px;
+  padding: var(--padding);
+}
+.membership-grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  align-content: center;
+  height: 75%;
+  text-align: center;
+}
+.membership-grid div h3{
+  font-size: 18px;
+  padding: 15px;
+}
+.membership-grid div p{
+  font-size: 14px;
+  width: 212px;
+  line-height: 1.5;
+}
+.Membership h2{
+  text-align: center;
+  padding: 20px;
+  font-size: 32px;
+  font-family: 'source sans pro';
+  font-weight: lighter;
+}
+.Membership h2 span{
+  color: var(--purple);
+  font-weight: bold;
+}
 
