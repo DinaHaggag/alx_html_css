@@ -11,6 +11,7 @@
 :root {
   --purple:#C271FF;
   --white:#FFFFFF;
+  --dark-blue:#071629;
   --padding:20px 120px 50px 120px;
 }
 
@@ -191,7 +192,7 @@ button{
 
 /* Membership */
 .Membership{
-  background-color: black;
+  background-color:var(--dark-blue);
   color: var(--white);
   height: 502px;
   padding: var(--padding);
@@ -251,4 +252,32 @@ button{
 .faq-paragraph{
   font-size: 14px;
   margin-bottom: 50px;
+}
+
+/* footer */
+footer{
+  height: 250px;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: var(--padding);
+}
+.social-media{
+  display: flex;
+  justify-content: space-between;
+  padding: 130px 50px 80px 50px;
+}
+.social-media-icons i{
+  margin-left: 20px;
+  background-color: var(--white);
+  color: var(--dark-blue);
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 50%;
+  padding-top: 7px;
+}
+footer p{
+  font-size: 12px;
+  text-align: center;
 }
