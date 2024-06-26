@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* font */
+@font-face {
+  font-family: 'source sans pro'; 
+  src: url('fonts/SourceSansPro-Light.otf'); 
+}
+/* variables */
+:root {
+  --purple:#C271FF;
+  --white:#FFFFFF;
+  --padding:20px 120px 50px 120px;
+}
+
+/* header and first section */
+.header-background{
+  background-image: url(/css_advanced/images/Object.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white);
+  padding: var(--padding);
+  height: 1093px;
+}
+/* header */
+header{
+  margin-bottom: 150px;
+}
+header>nav{
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+nav ul li a{
+  text-decoration: none;
+  padding-left: 25px;
+  color: var(--white);
+}
+/* first section */
+.head{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 150px;
+}
+.head h1{
+  font-weight: bold;
+  font-size: 120px;
+  text-align: center;
+}
+.head div {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.head div span{
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+button{
+  background-color:var(--purple) ;
+  color:var(--white) ;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.6px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.header-bottom p:first-child{
+  font-size: 32px;
+  font-weight:lighter;
+  font-family: 'source sans pro';
+  text-align: center;
+  margin: 30px;
+  margin-bottom: 60px;
+}
+
+.header-bottom p:first-child span{
+  color: var(--purple);
+  font-weight: bold;
+}
+
+.section1-icons{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.section1-icons h3{
+  font-size: 18px;
+  padding: 5px;
+}
+.section1-icons p{
+  width: 150px;
+  font-style: italic;
+  font-family: 'source sans pro';
+  display: block;
+  margin: auto;
+  padding: 5px;
+}
+
+.section1-icons img{
+  border-radius: 50%;
+}
+
+
+/* quote */
+.quote{
+  background-color:var(--purple);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+}
+
