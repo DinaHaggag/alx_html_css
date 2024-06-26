@@ -125,5 +125,18 @@ button{
   color: var(--white);
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: var(--padding);
+  height: 392px;
+  font-size: 22px;
+}
+.quote blockquote{
+  margin-bottom: 30px;
+}
+.quote p{
+  font-style: italic;
+}
+.quote div{
+  margin: 20px;
 }
 
