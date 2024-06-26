@@ -17,7 +17,7 @@
 
 /* header and first section */
 .header-background{
-  background-image: url(/css_advanced/images/Object.png);
+  background-image: url(images/Object.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--white);
@@ -181,6 +181,7 @@ button{
   justify-content: space-between;
   color: var(--purple);
   width: 245px;
+  padding: 5px 10px;
 }
 .rate-flex div{
   padding-right: 5px;
