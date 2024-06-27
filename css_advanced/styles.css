@@ -158,6 +158,30 @@ button{
   gap: 10px;
   padding: var(--padding);
 }
+.img{
+  width: 255px;
+  height: 155px;
+}
+.img1{
+  background-image: url(images/9.png);
+}
+.img2{
+  background-image: url(images/7.png);
+}
+.img3{
+  background-image: url(images/8.png);
+}
+.img4{
+  background-image: url(images/6.png);
+}
+.img img{
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin: auto;
+  padding-top: 20%;
+}
+
 .videos-grid h3{
   padding: 5px 5px 5px 0px;
 }
