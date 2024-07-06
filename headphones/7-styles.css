@@ -208,6 +208,8 @@ button:hover{
 .part2-icons p{
   font-family: 'sans pro normal';
   font-size: 14px;
+  width: 207px;
+  height: 52px;
 }
 
 /* our results section */
