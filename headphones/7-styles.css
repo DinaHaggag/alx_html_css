@@ -364,13 +364,13 @@ footer p{
 
 /* responsive design */
 /* for desktop */
-@media only screen and (min-width:769px) {
+@media only screen and (min-width:992px) {
   header{
     padding: var(--padding);
   }
 }
 /* for  tablet */
-@media only screen and (min-width:481px) and (max-width:768px) 
+@media only screen and (min-width:481px) and (max-width:991px) 
 {
   header{
     padding: var(--tabpadding);
