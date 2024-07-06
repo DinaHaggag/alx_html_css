@@ -150,3 +150,68 @@ button:hover{
   cursor: pointer;
   opacity: 0.9;
 }
+
+/* responsive design */
+/* for desktop */
+@media only screen and (min-width:992px) {
+  header{
+    padding: var(--padding);
+  }
+}
+
+/* for  tablet */
+@media only screen and (min-width:481px) and (max-width:991px) 
+{
+  header{
+    padding: var(--tabpadding);
+  }
+  .part2-icons{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 80px;
+  }
+}
+/* for mobile */
+@media only screen and (max-width: 480px){
+  .small-nav{
+    display: block;
+    padding: 130% 60% 0 60%;
+  }
+  .large-nav{
+    display: none;
+  }
+  .small-nav:hover .exite{
+    visibility: visible;
+  }
+  .small-nav:hover .bar-icon{
+    visibility: hidden;
+  }
+  .small-nav:hover  .click-nav{
+    display: block;
+    position: absolute;
+    top: 145%;
+    left: 35%;
+    list-style: none;
+    color: white;
+  }
+ .section1{
+    margin: 130px auto 0 auto;
+  }
+
+  .logo{
+    position: absolute;
+    left: 30%;
+    padding-top: 8%;
+  }
+  header{
+    position: relative;
+  }
+  
+  .part2-icons{
+    flex-direction: column;
+    padding: 10% 15%;
+  }
+  .part2-icons div{
+    margin-bottom: 75px;
+  }
+}
